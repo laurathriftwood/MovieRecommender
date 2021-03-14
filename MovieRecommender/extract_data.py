@@ -71,13 +71,3 @@ def main():
 
 if __name__ =="__main__":
     main()
-    '''
-  data,movies,num_users, num_items = get_movies_ratings()
-  directory = './output'
-  if not os.path.exists(directory):
-    os.makedirs(directory)
-  data.to_pickle("./output/ratings.pkl")
-  movies.to_pickle("./output/movies.pkl")
-  '''
-  
-
